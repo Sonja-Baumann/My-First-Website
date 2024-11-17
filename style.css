@@ -1,3 +1,34 @@
-.fancy-layout{
-    background-color: hotpink;
+:root {
+    --myHeight: 200px;
+    --myWidth: 280px;
+
+}
+
+#julian{
+    font-weight: bold;
+}
+
+.floater{
+    background-color:hotpink;
+    height:var(--myHeight);
+    width:var(--myWidth);
+    /*float: right;*/
+    /*position: fixed;
+    top: 20px;
+    left: 60px;*/
+}
+.before{
+    background-color:dodgerblue;
+    height:var(--myHeight);
+    width:var(--myWidth);
+}
+.after{
+    background-color:forestgreen;
+    height:var(--myHeight);
+    width:var(--myWidth);
+}
+.bottom{
+    height:1000px;
+    width:100px;
+    background-color:darkred;
 }
